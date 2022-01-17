@@ -28,11 +28,11 @@ export class ObjetosSimplesComponent implements OnInit {
       cor: this.cor,
       idade: this.idade
     }
-    // Aninhando OBJETOS, juntando o Objeto Pessoas e Usuarios
+    // Aninhando OBJETOS, juntando o Objeto Pessoas e Usuarios*********************************
     // Usaremos um Metodo o Objeto ASSIGN, pode juntar ou alterar um que existe
     objetosJuntados = Object.assign(this.pessoas, this.usuarios);
 
-    // Usando o SPREAD Forma simples Gerar um Objeto novo e  juntar los.
+    //**********SPREAD***************** */ Usando o SPREAD Forma simples Gerar um Objeto novo e  juntar los.
 
     objetosJuntados2 = { ...this.usuarios, ...this.pessoas}
     // Usar uma Var como KEY e ela ficar DINAMICA;
