@@ -51,35 +51,35 @@ export class GetsSetsNoObjetoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.usuarios[0].nome);
-    console.log(this.usuarios[1].nome);
-    console.log(this.usuarios[2].nome);
+    // console.log(this.usuarios[0].nome);
+    // console.log(this.usuarios[1].nome);
+    // console.log(this.usuarios[2].nome);
 
     // Imprimindo o Objeto PESSOA com suas funções
-    console.log(this.usuario.atual); // Acessamos ATUAL que agora é um PROPRIEDADE por causa do GET
-    this.usuario.proximo();
+    // console.log(this.usuario.atual); // Acessamos ATUAL que agora é um PROPRIEDADE por causa do GET
+    // this.usuario.proximo();
     
-    console.log(this.usuario.atual); 
-    this.usuario.proximo(); // acessamos o PROXIMO INDEX.
+    // console.log(this.usuario.atual); 
+    // this.usuario.proximo(); // acessamos o PROXIMO INDEX.
     
-    console.log(this.usuario.atual); 
-    this.usuario.proximo(); // acessamos o PROXIMO INDEX.
+    // console.log(this.usuario.atual); 
+    // this.usuario.proximo(); // acessamos o PROXIMO INDEX.
     
-    this.usuario.anterior(); // acessamos o ANTERIOR INDEX.
-    console.log(this.usuario.atual); 
+    // this.usuario.anterior(); // acessamos o ANTERIOR INDEX.
+    // console.log(this.usuario.atual); 
 
-    this.usuario.anterior(); // acessamos o ANTERIOR INDEX.
-    console.log(this.usuario.atual); 
+    // this.usuario.anterior(); // acessamos o ANTERIOR INDEX.
+    // console.log(this.usuario.atual); 
 
-    this.usuario.anterior(); // acessamos o ANTERIOR INDEX.
-    console.log(this.usuario.atual); 
+    // this.usuario.anterior(); // acessamos o ANTERIOR INDEX.
+    // console.log(this.usuario.atual); 
 
-    this.usuario.atual = 0; // acessando via SET o Objeto e ATRIBUINDO VALORo.
-    console.log(this.usuario.atual); 
-    this.usuario.atual = 1; // acessando via SET o Objeto e ATRIBUINDO VALOR.
-    console.log(this.usuario.atual); 
-    this.usuario.atual = 2; // acessando via SET o Objeto e ATRIBUINDO VALOR.
-    console.log(this.usuario.atual); 
+    // this.usuario.atual = 0; // acessando via SET o Objeto e ATRIBUINDO VALORo.
+    // console.log(this.usuario.atual); 
+    // this.usuario.atual = 1; // acessando via SET o Objeto e ATRIBUINDO VALOR.
+    // console.log(this.usuario.atual); 
+    // this.usuario.atual = 2; // acessando via SET o Objeto e ATRIBUINDO VALOR.
+    // console.log(this.usuario.atual); 
   }
 
 }

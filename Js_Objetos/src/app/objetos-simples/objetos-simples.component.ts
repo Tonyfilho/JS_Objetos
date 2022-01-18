@@ -55,24 +55,24 @@ export class ObjetosSimplesComponent implements OnInit {
   ngOnInit(): void {
     console.table(this.pessoas);
     // ou 
-    console.log(this.pessoas.nome);
-    console.log(this.pessoas['ultimo-nome']); //Quando usamos COCHETES nas KEYS, temos que passar os nomes entre ASPAS
-    console.log(this.pessoas.idade);
-    console.log(this.pessoas.youtube);
-    console.log(this.pessoas.cidade);
+    // console.log(this.pessoas.nome);
+    // console.log(this.pessoas['ultimo-nome']); //Quando usamos COCHETES nas KEYS, temos que passar os nomes entre ASPAS
+    // console.log(this.pessoas.idade);
+    // console.log(this.pessoas.youtube);
+    // console.log(this.pessoas.cidade);
     //ou
-    console.log(this.pessoas['nome']);
-    console.log(this.pessoas['ultimo-nome']);
-    console.log(this.pessoas['idade']);
-    console.log(this.pessoas['youtube']);
-    console.log(this.pessoas['cidade']);
+    // console.log(this.pessoas['nome']);
+    // console.log(this.pessoas['ultimo-nome']);
+    // console.log(this.pessoas['idade']);
+    // console.log(this.pessoas['youtube']);
+    // console.log(this.pessoas['cidade']);
 
     // Imprimindo o Objeto com a função, o Nome da Função é a KEY
-    console.log(this.usuarios.digaOi('Antonio'));
-    // Imprimindo os Objetos que foram JUNTADOS
-   console.log(this.objetosJuntados);
-   console.log('Com SPREAD',this.objetosJuntados2);
-   console.log('Objeto com KEY Dinamica ', this.usuario2);
+  //   console.log(this.usuarios.digaOi('Antonio'));
+  //   // Imprimindo os Objetos que foram JUNTADOS
+  //  console.log(this.objetosJuntados);
+  //  console.log('Com SPREAD',this.objetosJuntados2);
+  //  console.log('Objeto com KEY Dinamica ', this.usuario2);
 
   }
    //Objeto é tipo de dados que permite armazena, uma outra coleção de heys e valores.
