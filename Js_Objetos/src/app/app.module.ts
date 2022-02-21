@@ -7,6 +7,7 @@ import { GetsSetsNoObjetoComponent } from './gets-sets-no-objeto/gets-sets-no-ob
 import { DestructionsComponent } from './destructions/destructions.component';
 import { IteracoesEmObjetosComponent } from './iteracoes-em-objetos/iteracoes-em-objetos.component';
 import { ExerciciosGetsSetsComponent } from './exercicios/exerciciosObjetos/gets-sets/exercicios-gets-sets.component';
+import { GetsSets2Component } from './exercicios/exerciciosObjetos/gets-sets2/gets-sets2.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ExerciciosGetsSetsComponent } from './exercicios/exerciciosObjetos/gets
     GetsSetsNoObjetoComponent,
     DestructionsComponent,
     IteracoesEmObjetosComponent,
-    ExerciciosGetsSetsComponent
+    ExerciciosGetsSetsComponent,
+    GetsSets2Component
   ],
   imports: [
     BrowserModule
